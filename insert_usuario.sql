@@ -1,0 +1,22 @@
+
+INSERT INTO `IF_livros` .`usuario` (`email`, `senha`) VALUES
+('ana.silva@example.com', 'ana123'),
+('bruno.costa@example.com', 'bruno123'),
+('carla.mendes@example.com', 'carla123'),
+('diego.oliveira@example.com', 'diego123'),
+('elisa.santos@example.com', 'elisa123'),
+('felipe.souza@example.com', 'felipe123'),
+('gabriela.lima@example.com', 'gabriela123'),
+('hugo.pereira@example.com', 'hugo123'),
+('isabela.rocha@example.com', 'isabela123'),
+('joao.almeida@example.com', 'joao123'),
+('larissa.fernandes@example.com', 'larissa123'),
+('marcelo.azevedo@example.com', 'marcelo'),
+('natalia.martins@example.com', 'natalia123'),
+('otavio.ramos@example.com', 'otavio123'),
+('paula.barros@example.com', 'paula123'),
+('rafael.vieira@example.com', 'rafael123'),
+('sofia.freitas@example.com', 'sofia123'),
+('tiago.correia@example.com', 'tiago123'),
+('ursula.reis@example.com', 'ursula123'),
+('vinicius.cardoso@example.com', 'vini123');

@@ -1,0 +1,22 @@
+-- SQLBook: Code
+INSERT INTO livro (nome, genero, status, autor)
+ VALUES ('1984', 'Ficção', 'Disponível', 'George Orwell'),
+('O Apanhador no Campo de Centeio', 'Clássico', 'Emprestado', 'J.D. Salinger'),
+('Dom Casmurro', 'Romance', 'Disponível', 'Machado de Assis'),
+('O Senhor dos Anéis', 'Fantasia', 'Disponível', 'J.R.R. Tolkien'),
+('Cem Anos de Solidão', 'Romance', 'Emprestado', 'Gabriel Garcia Márquez'),
+('A Menina que Roubava Livros', 'Drama', 'Disponível', 'Markus Zusak'),
+('Harry Potter e a Pedra Filosofal', 'Fantasia', 'Emprestado', 'J.K. Rowling'),
+('O Código Da Vinci', 'Suspense', 'Disponível', 'Dan Brown'),
+('Orgulho e Preconceito', 'Romance', 'Disponível', 'Jane Austen'),
+('A Arte da Guerra', 'Estratégia', 'Emprestado', 'Sun Tzu'),
+('O Alquimista', 'Ficção', 'Disponível', 'Paulo Coelho'),
+('Drácula', 'Terror', 'Emprestado', 'Bram Stoker'),
+('Frankenstein', 'Ficção Científica', 'Disponível', 'Mary Shelley'),
+('O Pequeno Príncipe', 'Infantil', 'Disponível', 'Antoine de Saint-Exupéry'),
+('Moby Dick', 'Aventura', 'Emprestado', 'Herman Melville'),
+('O Nome do Vento', 'Fantasia', 'Disponível', 'Patrick Rothfuss'),
+('Guerra e Paz', 'Histórico', 'Emprestado', 'Liev Tolstói'),
+('A Revolução dos Bichos', 'Fábula', 'Disponível', 'George Orwell'),
+('O Hobbit', 'Fantasia', 'Emprestado', 'J.R.R. Tolkien'),
+('Jane Eyre', 'Romance', 'Disponível', 'Charlotte Brontë');
