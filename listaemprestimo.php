@@ -16,27 +16,25 @@
     
 <header>
         <nav>
-            <a href="home.html">Pagina Inicial</a>
-            <details>
-                <summary>
-                    <a href="#">Lista</a>
-                </summary>
-                    <a href="listalivros.php">Livros</a><br>
-                    <a href="listacliente.php">Clientes</a><br>
-                    <a href="listaemprestimo.php">Emprestimos</a><BR>
-                    <a href="listafuncionario.php">Funcionarios</a>
-            </details>
-
-            <details>
-                <summary>
-                    <a href="#">Cadastro</a>
-                </summary>
-                <a href="cadastro_livro.html">Cadastro do Livro</a><br>
-                <a href="cadastro_cliente.html">Cadastro do Cliente</a><br>
-                <a href="cadastro_emprestimo.php">Cadastro do Emprestimo</a><br>
-                <a href="cadastro_funcionario.html">Cadastro do Funcionario</a>
-
-            </details>
+            <button class="dropbtn"><a href="home.html">Página Inicial</a></button>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="#">Lista</a></button>
+                <div class="dropdown-content">
+                    <a href="../listalivros.php">Livros</a><br>
+                    <a href="../listacliente.php">Clientes</a><br>
+                    <a href="../listaemprestimo.php">Empréstimos</a><br>
+                    <a href="../listafuncionario.php">Funcionários</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="#">Cadastro</a></button>
+                <div class="dropdown-content">
+                    <a href="cadastro_livro.html">Cadastro do Livro</a><br>
+                    <a href="cadastro_cliente.html">Cadastro do Cliente</a><br>
+                    <a href="cadastro_emprestimo.php">Cadastro do Empréstimo</a><br>
+                    <a href="cadastro_funcionario.html">Cadastro do Funcionário</a>
+                </div>
+            </div>
         </nav>
     </header>
     
@@ -60,19 +58,10 @@
         <?php
         require_once "conexao.php";
 
-        // Verifica se a conexão foi bem-sucedida
-        if (!$conexao) {
-            die("Falha na conexão: " . mysqli_connect_error());
-        }
 
         // Consulta para selecionar todos os dados da tabela emprestimo
         $sql = "SELECT emprestimo, data_de_devolucao, data_de_emprestimo, funcionario_idfuncionario, livro_idlivros, cliente_idcliente FROM emprestimo";
         $resultados = mysqli_query($conexao, $sql);
-
-        // Verifica se a consulta foi bem-sucedida
-        if (!$resultados) {
-            die("Erro na consulta: " . mysqli_error($conexao));
-        }
 
         // Loop para exibir os dados
         while ($linha = mysqli_fetch_array($resultados)) {
@@ -100,4 +89,5 @@
         <p>&copy; 2024 IF_LIVROS. Todos os direitos reservados.</p>
     </footer>
 </body>
+
 </html>
