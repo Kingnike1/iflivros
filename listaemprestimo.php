@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="download.png" type="image/png">
 
+    
 </head>
 
 <body>
-    <img src="logo.png" alt="logo do site" id="logo">
-
-    <header>
+<img src="logo.png" alt="logo do site" id="logo">
+    
+<header>
         <nav>
             <a href="home.html">Pagina Inicial</a>
             <details>
@@ -38,6 +39,7 @@
             </details>
         </nav>
     </header>
+    
 
 
     <h2>Lista de Emprestimo</h2>
@@ -92,7 +94,10 @@
         }
         ?>
 
-    </table>
-</body>
+    </table><br>
 
+    <footer>
+        <p>&copy; 2024 IF_LIVROS. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>
