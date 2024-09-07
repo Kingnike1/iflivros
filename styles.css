@@ -44,16 +44,53 @@ nav a {
 
 a:hover {
     filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
-
 }
 
-div a {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
+/* Estilo para o Botão do Dropdown */
+.dropbtn {
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* O contêiner <div> - necessário para posicionar o conteúdo do dropdown */
+.dropdown {
+    position: relative;
     display: inline-block;
 }
+
+/* Conteúdo do Dropdown (Oculto por Padrão) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+/* Links dentro do dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Mostrar o menu dropdown ao passar o mouse */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Mudar a cor de fundo do botão do dropdown quando o conteúdo do dropdown está visível */
+.dropdown:hover .dropbtn {
+    filter: drop-shadow(10px 10px 15px black);
+}
+
 /* Estilo para os elementos com classes .biblioteca e .dono */
 .biblioteca, .dono, .galeria, .painel {
     padding: 30px;
@@ -96,7 +133,6 @@ h2 {
     align-items: center;
     text-align: center;
     margin: auto;
-    /* width: auto removido */
 }
 
 /* Estilo para a coleção */
@@ -127,18 +163,11 @@ thead {
     text-transform: uppercase;
 }
 
-th{
+th, td {
     padding: 12px 15px;
     border: none;
     text-align: left;
 }
-
-td{
-    padding: 12px 15px;
-    border: none;
-    text-align: left;
-}
-
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
@@ -149,11 +178,7 @@ tbody tr:hover {
     cursor: pointer;
 }
 
-/* td:first-child {
-    font-weight: bold;
-    color: #007acc;
-} */
-
+/* Estilo do rodapé */
 footer {
     background: #333;
     color: #fff;
@@ -161,7 +186,7 @@ footer {
     padding: 1rem;
     position: relative;
     bottom: 0;
-    width: 100%;
+    width: auto;
 }
 
 /* Estilo para o contêiner de rolagem horizontal */
@@ -234,7 +259,7 @@ footer {
         margin-right: 0;
     }
 
-    .logo{
+    .logo {
         width: auto;
         height: auto;
     }
