@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="download.png" type="image/png">
 
-
+    
 </head>
+
 <body>
 <img src="logo.png" alt="logo do site" id="logo">
     
@@ -78,8 +79,10 @@
             echo "</tr>";
         }
     ?>
-</table>
+</table><br>
+
+<footer>
+        <p>&copy; 2024 IF_LIVROS. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
-</table>
-
