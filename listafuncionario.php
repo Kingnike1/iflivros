@@ -19,10 +19,10 @@
             <div class="dropdown">
                 <button class="dropbtn"><a href="#">Lista</a></button>
                 <div class="dropdown-content">
-                    <a href="../listalivros.php">Livros</a><br>
-                    <a href="../listacliente.php">Clientes</a><br>
-                    <a href="../listaemprestimo.php">Empréstimos</a><br>
-                    <a href="../listafuncionario.php">Funcionários</a>
+                    <a href="listalivros.php">Livros</a><br>
+                    <a href="listacliente.php">Clientes</a><br>
+                    <a href="listaemprestimo.php">Empréstimos</a><br>
+                    <a href="listafuncionario.php">Funcionários</a>
                 </div>
             </div>
             <div class="dropdown">
