@@ -39,7 +39,6 @@
             </details>
         </nav>
     </header>
-
         <h2>Lista de Cliente</h2>
     <table>
 
@@ -80,7 +79,10 @@
                 echo "</tbody>";
             }
             ?>
-        </table>
+        </table><br>
+        <footer>
+        <p>&copy; 2024 IF_LIVROS. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>
