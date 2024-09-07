@@ -47,8 +47,15 @@ a:hover {
 
 }
 
+div a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+}
 /* Estilo para os elementos com classes .biblioteca e .dono */
-.biblioteca, .dono {
+.biblioteca, .dono, .galeria, .painel {
     padding: 30px;
     text-align: justify;
     background-color: rgba(255, 255, 255, 0.8);
@@ -147,7 +154,15 @@ tbody tr:hover {
     color: #007acc;
 } */
 
-
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 
 /* Estilo para o contêiner de rolagem horizontal */
 .scroll-container {
