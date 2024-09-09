@@ -50,7 +50,7 @@ Gostaria de agradecer a todos que contribuíram para o projeto:
 Para dúvidas ou feedback, entre em contato pelo email: [pablo.rodrigues1@estudante.ifgoiano.edu.br](mailto:pablo.rodrigues1@estudante.ifgoiano.edu.br),
 [bianca.vitoria@estudante.ifgoiano.edu.br](mailto:bianca.vitoria@estudante.ifgoiano.edu.br),
 [paulo.maciel@estudante.ifgoiano.edu.br](mailto:paulo.maciel@estudante.ifgoiano.edu.br),
-[sara.xavier](mailto:sara.xavier@estudante.ifgoiano.edu.br)
+[sara.xavier@estudante.ifgoiano.edu.br](mailto:sara.xavier@estudante.ifgoiano.edu.br)
 
 ## Roadmap
 
